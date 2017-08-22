@@ -1,4 +1,4 @@
-# JHU_Bootcamp
+## JHU_Bootcamp_Ahrenslab
 
 This is a github repository for the JHU bootcamp class hosted by Ahrens lab on August 21st, 2017 in HHMI Janelia. 
 Tutors: Mika Rubinov and Takashi Kawashima
@@ -14,8 +14,7 @@ In this experiment, the fish changes its swim pattern in response to various vis
 
 Below is an except of the demo code ("JHU_demo.mlx"). You can find more detailed explanation in the code.
 
-{nbsp} +
-{nbsp} +
+### data analysis
 
 
 
@@ -72,13 +71,9 @@ We will further practice multivariate regression, dimensionality reduction (PCA,
 
 
 
-{nbsp} +
-{nbsp} +
 
 
-
-
-# References:
+### References:
 
 [1] Whole-brain functional imaging at cellular resolution using light-sheet microscopy.
     Ahrens MB, Orger MB, Robson DN, Li JM, Keller PJ; Nature Methods. 
