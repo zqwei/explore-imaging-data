@@ -58,6 +58,12 @@ We show 3D volume of the imaged brain (Left) or location of selected cells (Righ
 |:---:|:---:|
 
 
+We show correlation coefficient of individual neural activities to swim patterns in a whole-brain map. The code is not shown for exercise.
+
+
+<img src="./pics/motor_correlation.png" width="960">
+
+We will further practice multivariate regression, dimensionality reduction (PCA, NNMF), clustering (K-means) and other advanced methods for analyzing large-scale neural activity datasets.
 
 
 # References:
