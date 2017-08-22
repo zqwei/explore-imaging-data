@@ -14,7 +14,8 @@ In this experiment, the fish changes its swim pattern in response to various vis
 
 Below is an except of the demo code. You can find more detailed explanation in the code.
 
-First, load the data of behavioral variables, activities of neurons, and positions of neurons.
+
+First, we load the data of behavioral variables, activities of neurons, and positions of neurons.
 
     root_dir='/Users/XXXXX/XXXX/data/';
 
@@ -23,7 +24,7 @@ First, load the data of behavioral variables, activities of neurons, and positio
 
 This "selected_neural_data.mat" contains data of 6000 neurons which are selected from 100,000 neurons in the original imaging dataset. We use this smaller data for convenience, but if you are interested you can load "neural_data.mat" instead to analyze all imaged neurons. 
 
-Then we Plot the swim power of fish (Figure1) and calcium activities of 5 neurons (Figure 2) during the experiment.
+Then we plot the swim power of fish (Figure1) and calcium activities of 5 neurons (Figure 2) during the experiment.
 
     figure(1)
     plot(swim_power);
@@ -37,11 +38,24 @@ Then we Plot the swim power of fish (Figure1) and calcium activities of 5 neuron
 <img src="./pics/neural_response.png" width="960">
 
 
-Display 3D volume of the imaged brain, using projection from the side and side projection.
+We show 3D volume of the imaged brain (left) or location of selected cells (right), using projection from the top and the side. Part of the code is not shown for exercise.
+
+    % Top projection view
+    Volume_XY=sum(Volume,3);
+
+    % Side projection view
+    Volume_XZ=sum(Volume,2);
+
+    % Show top and side views
+    figure(3)
+
+    subplot(1,2,1);imagesc(Volume_XY);title('Top view');
+
+    subplot(1,2,2);imagesc(squeeze(Volume_XZ));title('Side view');
 
 
 
-
+<img src="./pics/imaged_volume.png" width="480">  <img src="./pics/cell_location.png" width="480">  
 
 
 
