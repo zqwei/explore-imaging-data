@@ -52,13 +52,12 @@ We show 3D volume of the imaged brain (Left) or location of selected cells (Righ
     subplot(1,2,1);imagesc(Volume_XY);title('Top view');
 
     subplot(1,2,2);imagesc(squeeze(Volume_XZ));title('Side view');
-    
 
-<img align="left" src="./pics/imaged_volume.png" hspace="20"/>
-<img align="left" src="./pics/cell_location.png" hspace="20"/>
-<br/><br/><br/><br/><br/>
+<section>
+    <img width="300" src="./pics/imaged_volume.png">
+    <img width="300" src="./pics/cell_location.png">
+</section>
 
-![alt-text-1]() ![alt-text-2](./pics/cell_location.png)
 
 
 
