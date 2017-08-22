@@ -5,7 +5,8 @@ Tutors: Mika Rubinov and Takashi Kawashima
 
 The goal of this class is to learn the basics of data analysis for large-scale calcium imaging experiments. In our experiment, calcium activities of ~100,000 neurons are simuntaneously recorded in the brain of larval zebrafish, which is behaving in a virtual reality environment[ref 1,2]. 
 
-![alt text](./pics/maxresdefault.jpg| width=48)
+<img src="./pics/maxresdefault.jpg" width="48">
+
 
 
 
