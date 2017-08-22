@@ -14,7 +14,8 @@ In this experiment, the fish changes its swim pattern in response to various vis
 
 Below is an except of the demo code ("JHU_demo.mlx"). You can find more detailed explanation in the code.
 
-
+{nbsp} +
+{nbsp} +
 
 
 
@@ -71,7 +72,8 @@ We will further practice multivariate regression, dimensionality reduction (PCA,
 
 
 
-
+{nbsp} +
+{nbsp} +
 
 
 
