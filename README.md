@@ -24,7 +24,7 @@ First, we load the data of behavioral variables, activities of neurons, and posi
 
 This "selected_neural_data.mat" contains data of 6000 neurons which are selected from 100,000 neurons in the original imaging dataset. We use this smaller data for convenience, but if you are interested you can load "neural_data.mat" instead to analyze all imaged neurons. 
 
-Then we plot the swim power of fish (Figure1) and calcium activities of 5 neurons (Figure 2) during the experiment.
+Then we plot the swim power of fish (Top) and calcium activities of 5 neurons (Bottom) during the experiment.
 
     figure(1)
     plot(swim_power);
@@ -38,7 +38,7 @@ Then we plot the swim power of fish (Figure1) and calcium activities of 5 neuron
 <img src="./pics/neural_response.png" width="960">
 
 
-We show 3D volume of the imaged brain (left) or location of selected cells (right), using projection from the top and the side. Part of the code is not shown for exercise.
+We show 3D volume of the imaged brain (Left) or location of selected cells (Right), using projection from the top and the side. Part of the code is not shown for exercise.
 
     % Top projection view
     Volume_XY=sum(Volume,3);
@@ -53,9 +53,10 @@ We show 3D volume of the imaged brain (left) or location of selected cells (righ
 
     subplot(1,2,2);imagesc(squeeze(Volume_XZ));title('Side view');
 
-
-
-<img src="./pics/imaged_volume.png" width="480">  <img src="./pics/cell_location.png" width="480">  
+<p float="left">
+    <img src="./pics/imaged_volume.png" width="480" />  
+    <img src="./pics/cell_location.png" width="480" />  
+</p>
 
 
 
