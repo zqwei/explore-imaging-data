@@ -55,7 +55,7 @@ We show 3D volume of the imaged brain (left) or location of selected cells (righ
 
 
 
-<img src="./pics/imaged_volume.png" width="480">  <img src="./pics/cell_location.png" width="480">  
+<img src="./pics/imaged_volume.png" width="480">  <img src="./pics/cell_locations.png" width="480">  
 
 
 
