@@ -55,7 +55,7 @@ We show 3D volume of the imaged brain (Left) or location of selected cells (Righ
     
 |[![](./pics/imaged_volume.png)]  |  [![](./pics/cell_location.png)] |
 
-| [![VideoBlocks](https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/logo.png)](http://videoblocks.com)  | [![AudioBlocks](https://dtyn3c8zjrx01.cloudfront.net/img/assets/audioblocks/images/logo.png)](http://audioblocks.com)  |
+| [![VideoBlocks](./pics/imaged_volume.png](http://videoblocks.com)  | [![AudioBlocks](./pics/cell_location.png)](http://audioblocks.com)  |
 |:---:|:---:|
 
 
