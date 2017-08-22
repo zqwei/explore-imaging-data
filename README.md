@@ -1,4 +1,4 @@
-## JHU_Bootcamp:Ahrenslab
+## JHU_Bootcamp: Ahrenslab
 
 This is a github repository for the JHU bootcamp class hosted by Ahrens lab on August 22nd, 2017 in HHMI Janelia. 
 
