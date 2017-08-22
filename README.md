@@ -1,4 +1,4 @@
-## JHU_Bootcamp_Ahrenslab
+## JHU_Bootcamp:Ahrenslab
 
 This is a github repository for the JHU bootcamp class hosted by Ahrens lab on August 21st, 2017 in HHMI Janelia. 
 Tutors: Mika Rubinov and Takashi Kawashima
@@ -14,7 +14,7 @@ In this experiment, the fish changes its swim pattern in response to various vis
 
 Below is an except of the demo code ("JHU_demo.mlx"). You can find more detailed explanation in the code.
 
-### data analysis
+### Data analysis
 
 
 
