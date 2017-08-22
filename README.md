@@ -29,7 +29,7 @@ Plot the swim power of fish during the experiment.
     plot(swim_power);
     xlabel('time (s)')
    
-<img src="./pics/swim_power.png" width="576">
+<img src="./pics/swim_power.png" width="960">
 
 Plot the swim power of fish during the experiment.
 
@@ -37,7 +37,7 @@ Plot the swim power of fish during the experiment.
     plot(neural_response_matrix(1:5,:)');
     xlabel('time (s)')
    
-<img src="./pics/neural_response.png" width="576">
+<img src="./pics/neural_response.png" width="960">
 
 We plot 3D volume of the imaged brain, using top projection and side projection.
 
