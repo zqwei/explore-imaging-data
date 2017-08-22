@@ -1,6 +1,7 @@
 ## JHU_Bootcamp:Ahrenslab
 
-This is a github repository for the JHU bootcamp class hosted by Ahrens lab on August 21st, 2017 in HHMI Janelia. 
+This is a github repository for the JHU bootcamp class hosted by Ahrens lab on August 22nd, 2017 in HHMI Janelia. 
+
 Tutors: Mika Rubinov and Takashi Kawashima
 
 The goal of this class is to learn the basics of data analysis for large-scale calcium imaging experiments. In our experiment, calcium activities of ~100,000 neurons are simuntaneously recorded in the brain of larval zebrafish, which is behaving in a virtual reality environment[ref 1-3]. 
@@ -22,8 +23,8 @@ First, we load the data of behavioral variables, activities of neurons, and posi
 
     root_dir='/Users/XXXXX/XXXX/data/';
 
-    load(fullfile(root_dir,'behavioral_variables.mat'));
-    load(fullfile(root_dir,'selected_neural_data.mat'));
+    load([root_dir,'behavioral_variables.mat']);
+    load([root_dir,'selected_neural_data.mat']);
 
 This "selected_neural_data.mat" contains data of 6000 neurons which are selected from 100,000 neurons in the original imaging dataset. We use this smaller data for convenience, but if you are interested you can load "neural_data.mat" instead to analyze all imaged neurons. 
 
@@ -61,7 +62,7 @@ We show 3D volume of the imaged brain (Left) or location of selected cells (Righ
 |:---:|:---:|
 
 
-We calculate correlation coefficients between neural activities and swim patterns and plot them in a whole-brain map. You can see the correlation is different from cell to cell. Some are strongly correlated/anti-correlated to swim pattern, while others are moderately correlated/anti-correlated. 
+We calculate correlation coefficients between neural activities and swim patterns and plot them in a whole-brain map. You can see the correlation is different from cell to cell. Some are strongly correlated/anti-correlated to swim pattern, while others are moderately so. 
 
 
 <img src="./pics/motor_correlation.png" width="480">
