@@ -23,23 +23,21 @@ First, load the data of behavioral variables, activities of neurons, and positio
 
 This "selected_neural_data.mat" contains data of 6000 neurons which are selected from 100,000 neurons in the original imaging dataset. We use this smaller data for convenience, but if you are interested you can load "neural_data.mat" instead to analyze all imaged neurons. 
 
-Plot the swim power of fish during the experiment.
+Then we Plot the swim power of fish (Figure1) and calcium activities of 5 neurons (Figure 2) during the experiment.
 
     figure(1)
     plot(swim_power);
     xlabel('time (s)')
-   
-<img src="./pics/swim_power.png" width="960">
-
-Plot the swim power of fish during the experiment.
-
+    
     figure(2)
     plot(neural_response_matrix(1:5,:)');
     xlabel('time (s)')
    
+<img src="./pics/swim_power.png" width="960">  
 <img src="./pics/neural_response.png" width="960">
 
-We plot 3D volume of the imaged brain, using top projection and side projection.
+
+Display 3D volume of the imaged brain, using projection from the side and side projection.
 
 
 
