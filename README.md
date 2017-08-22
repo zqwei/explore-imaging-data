@@ -12,7 +12,10 @@ In this class, we use Matlab as a programming environment. We use the JHU_demo.m
 
 In this experiment, the fish changes its swim pattern in response to various visual stimuli presented in the environment. We analyze how activities of individual neurons are tuned to different behavioral variables (swim pattern, visual stimuli) and how they are distributed across the brain depending on their tuning.
 
-Below is an except of the demo code. You can find more detailed explanation in the code.
+Below is an except of the demo code ("JHU_demo.mlx"). You can find more detailed explanation in the code.
+
+
+
 
 
 First, we load the data of behavioral variables, activities of neurons, and positions of neurons.
@@ -64,6 +67,13 @@ We calculate correlation coefficients between neural activities and swim pattern
 <img src="./pics/motor_correlation.png" width="480">
 
 We will further practice multivariate regression, dimensionality reduction (PCA, NNMF), clustering (K-means) and other advanced methods for analyzing large-scale neural activity datasets.
+
+
+
+
+
+
+
 
 
 # References:
