@@ -26,16 +26,18 @@ This "selected_neural_data.mat" contains data of 6000 neurons which are selected
 Plot the swim power of fish during the experiment.
 
     figure(1)
-    plot(swim_power);xlabel('time (s)')
+    plot(swim_power);
+    xlabel('time (s)')
    
-<img src="./pics/swim_power" width="576">
+<img src="./pics/swim_power.png" width="576">
 
 Plot the swim power of fish during the experiment.
 
     figure(2)
-    plot(neural_response_matrix(1:5,:)');xlabel('time (s)')
+    plot(neural_response_matrix(1:5,:)');
+    xlabel('time (s)')
    
-<img src="./pics/neural_response" width="576">
+<img src="./pics/neural_response.png" width="576">
 
 We plot 3D volume of the imaged brain, using top projection and side projection.
 
