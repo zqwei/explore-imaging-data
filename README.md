@@ -12,7 +12,33 @@ In this class, we use Matlab as a programming environment. We use the JHU_demo.m
 
 In this experiment, the fish changes its swim pattern in response to various visual stimuli presented in the environment. We analyze how activities of individual neurons are tuned to different behavioral variables (swim pattern, visual stimuli) and how they are distributed across the brain depending on their tuning.
 
-First, load the data of activities and positions of neurons.
+Below is an except of the demo code. You can find more detailed explanation in the code.
+
+First, load the data of behavioral variables, activities of neurons, and positions of neurons.
+
+    root_dir='/Users/XXXXX/XXXX/data/';
+
+    load(fullfile(root_dir,'behavioral_variables.mat'));
+    load(fullfile(root_dir,'selected_neural_data.mat'));
+
+This "selected_neural_data.mat" contains data of 6000 neurons which are selected from 100,000 neurons in the original imaging dataset. We use this smaller data for convenience, but if you are interested you can load "neural_data.mat" instead to analyze all imaged neurons. 
+
+Plot the swim power of fish during the experiment.
+
+    figure(1)
+    plot(swim_power);xlabel('time (s)')
+   
+<img src="./pics/swim_power" width="576">
+
+Plot the swim power of fish during the experiment.
+
+    figure(2)
+    plot(neural_response_matrix(1:5,:)');xlabel('time (s)')
+   
+<img src="./pics/neural_response" width="576">
+
+We plot 3D volume of the imaged brain, using top projection and side projection.
+
 
 
 
