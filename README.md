@@ -38,7 +38,7 @@ Then we plot the swim power of fish (Top) and calcium activities of 5 neurons (B
 <img src="./pics/neural_response.png" width="960">
 
 
-We show 3D volume of the imaged brain (Left) or location of selected cells (Right), using projection from the top and the side. Part of the code is not shown for exercise.
+We show 3D volume of the imaged brain (Left) or location of selected cells (Right), using projection from the top and the side. Part of the code for these plot is not shown here.
 
     % Top projection view
     Volume_XY=sum(Volume,3);
@@ -58,7 +58,7 @@ We show 3D volume of the imaged brain (Left) or location of selected cells (Righ
 |:---:|:---:|
 
 
-We show correlation coefficient of individual neural activities to swim patterns in a whole-brain map. You can see the correlation is different from cell to cell. Some are strongly correlated/anti-correlated to swim pattern, while others are moderately correlated/anti-correlated. The code is not shown for exercise.
+We calculate correlation coefficients between neural activities and swim patterns and plot them in a whole-brain map. You can see the correlation is different from cell to cell. Some are strongly correlated/anti-correlated to swim pattern, while others are moderately correlated/anti-correlated. 
 
 
 <img src="./pics/motor_correlation.png" width="480">
