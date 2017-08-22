@@ -2,7 +2,7 @@
 
 This is a github repository for the JHU bootcamp class hosted by Ahrens lab on August 22nd, 2017 in HHMI Janelia. 
 
-Tutors: Mika Rubinov and Takashi Kawashima
+Tutors: Takashi Kawashima and Mika Rubinov
 
 The goal of this class is to learn the basics of data analysis for large-scale calcium imaging experiments. In our experiment, calcium activities of ~100,000 neurons are simuntaneously recorded in the brain of larval zebrafish, which is behaving in a virtual reality environment[ref 1-3]. 
 
@@ -61,6 +61,9 @@ We show 3D volume of the imaged brain (Left) or location of selected cells (Righ
 | ![imaged_volume](./pics/imaged_volume.png) | ![cell_location](./pics/cell_location.png)  |
 |:---:|:---:|
 
+We can also make activity movies of cells to get an intuition.
+
+<img src="./pics/activity_movie_top" width="480">
 
 We calculate correlation coefficients between neural activities and swim patterns and plot them in a whole-brain map. You can see the correlation is different from cell to cell. Some are strongly correlated/anti-correlated to swim pattern, while others are moderately so. 
 
