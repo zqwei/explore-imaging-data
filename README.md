@@ -63,7 +63,7 @@ We show 3D volume of the imaged brain (Left) or location of selected cells (Righ
 
 We can also make activity movies of cells to get an intuition.
 
-<img src="./pics/activity_movie_top" width="480">
+<img src="./pics/activity_movie_top.gif" width="480">
 
 We calculate correlation coefficients between neural activities and swim patterns and plot them in a whole-brain map. You can see the correlation is different from cell to cell. Some are strongly correlated/anti-correlated to swim pattern, while others are moderately so. 
 
