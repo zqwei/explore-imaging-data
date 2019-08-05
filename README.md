@@ -1,8 +1,8 @@
 ## JHU_Bootcamp: Ahrenslab
 
-This is a github repository for the JHU bootcamp class hosted by Ahrens lab on August 22nd, 2017 in HHMI Janelia. 
+This is a github repository for the JHU bootcamp class hosted by Ahrens lab on August 28th, 2019 in HHMI Janelia. 
 
-Tutors: Takashi Kawashima and Mika Rubinov
+Tutors: Ziqiang Wei and Virginia Rutten and Jing Xuan Lim
 
 The goal of this class is to learn the basics of data analysis for large-scale calcium imaging experiments. In our experiment, calcium activities of ~100,000 neurons are simuntaneously recorded in the brain of larval zebrafish, which is behaving in a virtual reality environment[ref 1-3]. 
 
@@ -90,3 +90,7 @@ We will further practice multivariate regression, dimensionality reduction (PCA,
 [3] Light-sheet functional imaging in fictively behaving zebrafish.
     Vladimirov N, Mu Y, Kawashima T, Bennett DV, Yang C, Looger LL, Keller PJ, Freeman J, Ahrens MB
     Nature Methods. 2014 Jul 27;11(9):883-4. doi: 10.1038/nmeth.3040
+
+### Contributions
+* 2017 Tutors: Takashi Kawashima and Mika Rubinov
+* 2018 Tutors: Takashi Kawashima and Ziqiang Wei and Virginia Rutten
